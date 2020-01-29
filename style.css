@@ -1,0 +1,147 @@
+/*Ao Kin Pong, 1155096429*/
+header {
+	text-align: center;
+	color: white;
+	background-image: url('bg2.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 4em;
+	
+}
+
+#about img {
+	float: right;
+	max-height:0%;
+	max-width:50%;
+	
+	height: auto;
+}
+
+header h1{
+	font-size: 3em;
+}
+
+h2{
+	font-weight:bold;
+}
+#me{
+	float:left;
+}
+section {
+	margin: 3em;
+	padding: 2em;
+}
+
+section h2 {
+	text-align: center;
+}
+nav{
+	background-color:#80808021;
+	text-align: center;
+}
+
+nav ul {
+	padding:1em ;
+}
+
+nav li {
+	display: inline-block;
+	width: 20%;
+}
+
+a:link {
+	color:black;
+	text-decoration:none;
+}
+
+a:hover{
+	color:blue;
+	font-weight: bold;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-container > div {
+	width: 8em;
+	height: 6em;
+	background: #03a9f4;
+	margin: 1em;
+	text-align: center;
+	line-height: 5em;
+	color: white;
+}
+
+#about{
+	background-color:#c9e6ad5e;
+}
+#courses{
+	background-color:azure;
+	
+}
+#courses table{
+border-collapse: collapse;
+text-align: center;
+margin: 3em;
+width:80%;
+}
+
+#courses tr,td{
+	padding:1em;
+	border-bottom:1px solid #8080804f;}
+
+#links{
+	background-color:#ff00001a
+}
+
+#responsive{
+	background-color:#ffe3ffed
+}
+body{
+
+font-family: 'Open Sans', sans-serif;
+
+}
+
+footer{
+	background-color:#0060ff69;
+	text-align:right;
+}
+
+
+
+@media screen and (max-width: 500px) {
+nav li {
+	padding: 0;
+	width: 6em;
+}
+
+section {
+	margin: 0;
+	padding: 1em;
+}
+
+#about img {
+	min-width: 100%;
+
+}
+
+#about .flex-container div {
+	margin: 5px;
+}
+
+#courses table {
+	width: 100%;
+	margin: 0;
+}
+
+header h1{
+	color:yellow;
+}
+
+header h2{
+	color:yellow;
+}
+}

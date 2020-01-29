@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<!--Ao Kin Pong-->
+<html>
+<head>
+    <title>My Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <article>
+        <header>
+            <h1>AO Kin Pong</h1>
+            <h2>Department of Physics</h2>
+        </header>
+
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><a href="#responsive">Responsive</a></li>
+            </ul>
+        </nav>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                <picture>
+                    <source srcset="person-small.jpg" media="(max-width: 500px)">
+                    <img id="me" src="person-big.jpg" alt="cannot see">
+                </picture>
+                Hello! I am a year 2 student from the Department of Physics. Happy to see you!
+            </p>
+
+            <h3>My hobbies</h3>
+            <div class="flex-container">
+                <div>Jogging</div>
+                <div>Reading</div>
+                <div>Web Design</div>
+                <div>Sleeping</div>
+            </div>
+
+        </section>
+
+        <section id="courses">
+            <h2>My current courses</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Course code</th>
+                        <th>Course title</th>
+                    </tr>
+
+                    <tr>
+                        <td>CSCI2100</td>
+                        <td>Data Structures</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSCI2720</td>
+                        <td>Building Web Applications</td>
+                    </tr>
+
+                    <tr>
+                        <td>PHYS2041</td>
+                        <td>Introduction to Heat and Electromagnetism</td>
+                    </tr>
+
+                    <tr>
+                        <td>PHYS2051</td>
+                        <td>Quantitative Methods for Basic Physics</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <section id="links">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+                <li><a href="https://blackboard.cuhk.edu.hk/ultra/" target="_blank">Blackboard</a></li>
+                <li><a href="http://www.phy.cuhk.edu.hk/" target="_blank">CUHK Physics</a></li>
+            </ul>
+        </section>
+
+        <section id="responsive">
+            <h2>Responsive Web Design</h2>
+            <p>
+                When the screen width is smaller than 500px:
+                <ul>
+                    <li>The color of header changes color from white to yellow.</li>
+                    <li>A smaller profile picture is used to better fit the screen size.</li>
+                    <li>Margins of sections become smaller so that sections become more closely packed in small screen size.</li>
+                    <li>Flexbox in "hobbies" auto reflow.</li>
+                    <li>Table in "courses" occupies the whole width in the section.</li>
+                </ul>
+
+
+            </p>
+        </section>
+        <footer>
+            This website will be built by <time>2018-10-17</time>.&copyKin-Pong Ao
+        </footer>
+
+
+    </article>
+</body>
+</html>
